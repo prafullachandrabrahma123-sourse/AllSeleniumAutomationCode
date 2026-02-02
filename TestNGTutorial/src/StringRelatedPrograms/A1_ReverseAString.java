@@ -18,7 +18,7 @@ public class A1_ReverseAString {
 			reversed = reversed+ input.charAt(i); 
 		} 
 		
-		System.out.println("Reversed String is : " + reversed+input1);
+		System.out.println("Reversed String is : " + reversed);
 
 	}  
 
