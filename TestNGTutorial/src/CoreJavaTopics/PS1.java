@@ -1,0 +1,14 @@
+package CoreJavaTopics;
+
+import org.testng.annotations.Test;
+
+public class PS1 {
+
+     
+	public void vehicle() {
+		
+		System.out.println("TATA");
+
+	}
+
+}

@@ -1,0 +1,28 @@
+package CoreJavaTopics;
+
+import java.util.Scanner;
+
+public class A4_Fibonacci_series {
+	
+	//The Fibonacci series is a sequence of numbers where each number is the sum of the two preceding ones, starting from 0 and 1. So it goes like:
+
+	public static void main(String[] args) {
+		
+	
+		Scanner sc = new Scanner(System.in);
+             System.out.println("Please enter a Number:");
+             int num = sc.nextInt();
+             System.out.println("Fibonacci series of given number "+num+" is :");
+             
+             int first = 11;
+             int second = 12;
+             for(int i=0; i<=num; i++) {
+            	 System.out.println(first + ""); 
+            	 int next = second + first;
+            	 first = second;
+            	 second = next;
+            	 
+             }
+	}
+
+}

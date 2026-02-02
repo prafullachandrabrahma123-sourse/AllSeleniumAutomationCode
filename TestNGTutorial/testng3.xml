@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test"  preserve-order="true">
+        <listeners>
+           <listener class-name ="TestNGTutorialPractice.Listeners"/>
+       </listeners>     
+    <test name="Testing" >     
+      <parameter name="URL" value ="www.udemy.com"/>  
+      <parameter name="username" value ="Prafulla"/>  
+         <packages>            
+             <package name ="TestNGTutorialPractice"/>
+         </packages>      
+    </test>
+</suite>

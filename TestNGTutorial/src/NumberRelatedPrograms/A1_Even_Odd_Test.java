@@ -1,0 +1,26 @@
+package NumberRelatedPrograms;
+
+import java.util.Scanner;
+
+public class A1_Even_Odd_Test {
+	
+	//divisible by 2 is Even and remaining are Odd.
+
+	public static void main(String[] args) {
+		
+	  Scanner sc = new Scanner(System.in);
+       System.out.println("Please enter the number:");
+       int num = sc.nextInt();
+      
+       if(num%2==0) {
+    	   System.out.println("Entered number is even");
+    	   
+       }else {
+    	   System.out.println("Entered number is ODD");
+       }
+
+		}
+
+	}
+
+

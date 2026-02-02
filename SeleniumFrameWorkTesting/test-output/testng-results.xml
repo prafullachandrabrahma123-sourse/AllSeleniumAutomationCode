@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-31T16:37:38 IST" name="Suite" finished-at="2026-01-31T16:38:18 IST" duration-ms="39538">
+    <groups>
+    </groups>
+    <test started-at="2026-01-31T16:37:38 IST" name="Tests" finished-at="2026-01-31T16:38:18 IST" duration-ms="39538">
+      <class name="SeleniumAutomation.StandAloneTest_POM_Implementation">
+        <test-method is-config="true" signature="setup()[pri:0, instance:SeleniumAutomation.StandAloneTest_POM_Implementation@7c3fdb62]" started-at="2026-01-31T16:37:38 IST" name="setup" finished-at="2026-01-31T16:37:40 IST" duration-ms="2403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addProducts(java.util.HashMap)[pri:0, instance:SeleniumAutomation.StandAloneTest_POM_Implementation@7c3fdb62]" started-at="2026-01-31T16:37:41 IST" name="addProducts" data-provider="getData" finished-at="2026-01-31T16:37:55 IST" duration-ms="14181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Prafulla@123, email=prafullachandrabrahma@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProducts -->
+        <test-method signature="cartElements()[pri:0, instance:SeleniumAutomation.StandAloneTest_POM_Implementation@7c3fdb62]" started-at="2026-01-31T16:37:55 IST" name="cartElements" finished-at="2026-01-31T16:37:57 IST" depends-on-methods="SeleniumAutomation.StandAloneTest_POM_Implementation.addProducts" duration-ms="2321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartElements -->
+        <test-method signature="checkOutPage()[pri:0, instance:SeleniumAutomation.StandAloneTest_POM_Implementation@7c3fdb62]" started-at="2026-01-31T16:37:57 IST" name="checkOutPage" finished-at="2026-01-31T16:38:08 IST" depends-on-methods="SeleniumAutomation.StandAloneTest_POM_Implementation.cartElements" duration-ms="10975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutPage -->
+        <test-method signature="placeOrder()[pri:0, instance:SeleniumAutomation.StandAloneTest_POM_Implementation@7c3fdb62]" started-at="2026-01-31T16:38:09 IST" name="placeOrder" finished-at="2026-01-31T16:38:15 IST" depends-on-methods="SeleniumAutomation.StandAloneTest_POM_Implementation.checkOutPage" duration-ms="6233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrder -->
+        <test-method is-config="true" signature="orderValidationAfterSubmit()[pri:0, instance:SeleniumAutomation.StandAloneTest_POM_Implementation@7c3fdb62]" started-at="2026-01-31T16:38:15 IST" name="orderValidationAfterSubmit" finished-at="2026-01-31T16:38:18 IST" duration-ms="2614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderValidationAfterSubmit -->
+      </class> <!-- SeleniumAutomation.StandAloneTest_POM_Implementation -->
+    </test> <!-- Tests -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,52 @@
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+public class Shadow_dom_Task {
+	
+	public static void main(String[] args) throws InterruptedException {
+		
+		String url = "https://adbtest.service-now.com/login.do";
+		
+		WebDriver driver = new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		driver.get(url);
+		Thread.sleep(2000);
+		driver.manage().window().maximize();
+		driver.findElement(By.id("user_name")).sendKeys("MMI");
+	    driver.findElement(By.name("user_password")).sendKeys("P@ssw0rd");
+	    driver.findElement(By.xpath("//button[@id='sysverb_login']")).click();
+		Thread.sleep(7000);
+		
+		
+	/*	WebElement shadowHost = driver.findElement(By.cssSelector("sn-polaris-header[dir='ltr']"));
+
+		
+		SearchContext shadowRoot = shadowHost.getShadowRoot();
+
+		
+		WebElement innerElement = shadowRoot.findElement(By.cssSelector("div[aria-label='All']"));
+
+		
+		innerElement.click();
+
+	    
+	    //driver.quit();*/
+		
+		WebElement shadowHost = driver.findElement(By.cssSelector("html[lang='en']"));
+		WebElement shadowRoot = (WebElement) ((JavascriptExecutor) driver)
+		    .executeScript("return arguments[0].shadowRoot", shadowHost);
+
+		WebElement innerElement = shadowRoot.findElement(By.cssSelector("div[aria-label='All']"));
+		innerElement.click();
+
+	   
+	}
+	
+
+}

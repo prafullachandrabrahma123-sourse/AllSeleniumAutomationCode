@@ -1,0 +1,46 @@
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.Assert;
+
+
+public class Locator_Practice_2 {
+
+	public static void main(String[] args) throws InterruptedException {
+		
+		String url = "https://rahulshettyacademy.com/locatorspractice/";
+		
+		WebDriver driver = new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		driver.get(url);
+		driver.manage().window().maximize();
+		driver.findElement(By.id("inputUsername")).sendKeys("Prafulla");
+		
+		Thread.sleep(3000);
+		Actions action = new Actions(driver);
+		
+		WebElement element = driver.findElement(By.name("inputPassword"));
+		//element.sendKeys("rahulshettyacademy");
+		action.moveToElement(element).perform();
+	    driver.findElement(By.xpath("//label[@for='chkboxOne']")).click();
+	    Thread.sleep(2000);
+		driver.findElement(By.className("submit")).click();
+		Thread.sleep(3000);
+		
+				
+	    System.out.println(	driver.findElement(By.tagName("p")).getText());
+	    Thread.sleep(2000);
+	    Assert.assertEquals(driver.findElement(By.tagName("p")).getText(), "You are successfully logged in.");
+	    driver.findElement(By.xpath("//button[@class='logout-btn']")).click();
+	    Thread.sleep(2000);
+	    System.out.println(driver.findElement(By.cssSelector("[class=\"form\"] h1")).getText());
+	    
+	    driver.quit();
+	   
+	}
+	
+}

@@ -1,0 +1,63 @@
+package TestNGTutorialPractice;
+
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+public class A_2_PracticeTestNG {
+	
+	
+	@Test(groups={"Smoke"})
+	public void a1demo() {
+		
+		System.out.println("5");
+	}
+	
+	
+	@Test(dataProvider="getData")
+	public void a2Personalloan(String username, String password) {
+		
+		System.out.println("6");
+		System.out.println(username);
+		System.out.println(password);
+	}
+	@Test(groups={"Smoke"})
+	public void a3CarLoan() {
+		
+		System.out.println("7");
+	}
+	
+	@DataProvider
+	public Object[][] getData()
+	{
+		//1st combiantion - username password - good credit history= row
+		//2nd - username password  - no crdit history
+		// 3rd - fraudelent credit history
+		// This is 2D Array
+		Object[][] data= new Object[3][2];
+		//1st set 
+		data[0][0]="firstsetusername";
+		data[0][1]="firstpassword";
+		//couloumns in the row are nothing but values for that particualar combination(row)
+		
+		//2nd set
+		data[1][0]= "secondsetusername";
+		data[1][1]= "secondpassword";
+		
+		//3rd set
+		data[2][0]="thirdsetusername";
+		data[2][1]="thirdpassword";
+		return data;
+		
+	}
+	
+	@BeforeClass
+	public void a4demo() {
+		
+		System.out.println("8");
+	}
+
+}

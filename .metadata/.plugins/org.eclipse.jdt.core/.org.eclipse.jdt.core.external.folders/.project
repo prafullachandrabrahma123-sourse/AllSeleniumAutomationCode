@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>.org.eclipse.jdt.core.external.folders</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>.link1</name>
+			<type>2</type>
+			<location>C:/Users/WEL COME/Desktop/eclipse-jee-2025-09-R-win32-x86_64/eclipse/configuration/org.eclipse.osgi/1014/0/.cp</location>
+		</link>
+		<link>
+			<name>.link3</name>
+			<type>2</type>
+			<location>C:/apache-maven-3.9.12</location>
+		</link>
+		<link>
+			<name>.link6</name>
+			<type>2</type>
+			<location>C:/Program Files/Java/jdk-21</location>
+		</link>
+	</linkedResources>
+</projectDescription>

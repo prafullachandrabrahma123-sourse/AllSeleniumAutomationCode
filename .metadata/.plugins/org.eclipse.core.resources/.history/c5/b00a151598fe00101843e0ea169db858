@@ -1,0 +1,12 @@
+package CoreJavaTopics;
+
+public class PS1 {
+
+     
+	public void vehicle() {
+		
+		System.out.println("TATA");
+
+	}
+
+}
