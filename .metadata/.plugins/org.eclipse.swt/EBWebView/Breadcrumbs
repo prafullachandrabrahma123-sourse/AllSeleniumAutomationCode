@@ -88,3 +88,6 @@
 0:00:03 Tab2 StartNav5 #typed
 0:00:03 Tab2 FinishNav5
 0:00:03 Tab2 PageLoad
+0:03:02 Tab2 StartNav6 #typed
+0:03:02 Tab2 FinishNav6
+0:03:02 Tab2 PageLoad
