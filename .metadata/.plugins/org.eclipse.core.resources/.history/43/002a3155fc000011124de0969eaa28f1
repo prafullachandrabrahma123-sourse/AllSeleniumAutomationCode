@@ -1,0 +1,17 @@
+package CoreJavaTopics;
+
+import java.util.Scanner;
+
+public class PracticeJavaPrograms {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Please Enter a Number: ");
+		int first = sc.nextInt();
+		System.out.println("Please Enter Another Number: ");
+		int second = sc.nextInt(); 
+	
+	}
+
+}

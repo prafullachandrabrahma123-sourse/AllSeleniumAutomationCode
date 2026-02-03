@@ -1,0 +1,10 @@
+package NumberRelatedPrograms;
+
+public class A7_CountTheNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
