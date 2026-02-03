@@ -1,0 +1,21 @@
+package CoreJavaTopics;
+
+import java.util.Scanner;
+
+public class PracticeJavaPrograms {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Please Enter a number: ");
+		String num = sc.next();
+		
+		for(int i= num.length()-1;i>=1;i--);{
+			
+		}
+	
+		System.out.println("Reversed String is: ");
+
+	}
+
+}
