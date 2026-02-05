@@ -2,31 +2,31 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-31T14:23:42 IST" name="Suite" finished-at="2026-01-31T14:24:21 IST" duration-ms="38665">
+  <suite started-at="2026-02-04T21:49:04 IST" name="Suite" finished-at="2026-02-04T21:49:38 IST" duration-ms="34274">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberImplementation.TestNGTest_runner@36804139]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2026-01-31T14:23:42 IST" name="LoginEcommerseSiteTest" finished-at="2026-01-31T14:24:07 IST" duration-ms="24514">
+    <test started-at="2026-02-04T21:49:04 IST" name="LoginEcommerseSiteTest" finished-at="2026-02-04T21:49:25 IST" duration-ms="21361">
       <class name="CucumberBDD.tests.LoginEcommerseSiteTest">
-        <test-method is-config="true" signature="openWindow()[pri:0, instance:CucumberBDD.tests.LoginEcommerseSiteTest@55de24cc]" started-at="2026-01-31T14:23:42 IST" name="openWindow" finished-at="2026-01-31T14:23:50 IST" duration-ms="7335" status="PASS">
+        <test-method is-config="true" signature="openWindow()[pri:0, instance:CucumberBDD.tests.LoginEcommerseSiteTest@55de24cc]" started-at="2026-02-04T21:49:04 IST" name="openWindow" finished-at="2026-02-04T21:49:08 IST" duration-ms="4222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openWindow -->
-        <test-method signature="LoginEcommerseSite()[pri:0, instance:CucumberBDD.tests.LoginEcommerseSiteTest@55de24cc]" started-at="2026-01-31T14:23:50 IST" name="LoginEcommerseSite" finished-at="2026-01-31T14:24:06 IST" duration-ms="16565" status="PASS">
+        <test-method signature="LoginEcommerseSite()[pri:0, instance:CucumberBDD.tests.LoginEcommerseSiteTest@55de24cc]" started-at="2026-02-04T21:49:08 IST" name="LoginEcommerseSite" finished-at="2026-02-04T21:49:25 IST" duration-ms="16582" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginEcommerseSite -->
-        <test-method is-config="true" signature="atLast()[pri:0, instance:CucumberBDD.tests.LoginEcommerseSiteTest@55de24cc]" started-at="2026-01-31T14:24:06 IST" name="atLast" finished-at="2026-01-31T14:24:07 IST" duration-ms="316" status="PASS">
+        <test-method is-config="true" signature="atLast()[pri:0, instance:CucumberBDD.tests.LoginEcommerseSiteTest@55de24cc]" started-at="2026-02-04T21:49:25 IST" name="atLast" finished-at="2026-02-04T21:49:25 IST" duration-ms="303" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- atLast -->
       </class> <!-- CucumberBDD.tests.LoginEcommerseSiteTest -->
     </test> <!-- LoginEcommerseSiteTest -->
-    <test started-at="2026-01-31T14:24:07 IST" name="TestNGTest_runner" finished-at="2026-01-31T14:24:21 IST" duration-ms="13561">
+    <test started-at="2026-02-04T21:49:26 IST" name="TestNGTest_runner" finished-at="2026-02-04T21:49:38 IST" duration-ms="12376">
       <class name="CucumberImplementation.TestNGTest_runner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:CucumberImplementation.TestNGTest_runner@36804139]" started-at="2026-01-31T14:24:07 IST" name="setUpClass" finished-at="2026-01-31T14:24:08 IST" duration-ms="943" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:CucumberImplementation.TestNGTest_runner@36804139]" started-at="2026-02-04T21:49:26 IST" name="setUpClass" finished-at="2026-02-04T21:49:27 IST" duration-ms="861" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberImplementation.TestNGTest_runner@36804139]" started-at="2026-01-31T14:24:08 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-01-31T14:24:21 IST" duration-ms="12415" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberImplementation.TestNGTest_runner@36804139]" started-at="2026-02-04T21:49:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-04T21:49:38 IST" duration-ms="11353" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,7 +53,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:CucumberImplementation.TestNGTest_runner@36804139]" started-at="2026-01-31T14:24:21 IST" name="tearDownClass" finished-at="2026-01-31T14:24:21 IST" duration-ms="29" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:CucumberImplementation.TestNGTest_runner@36804139]" started-at="2026-02-04T21:49:38 IST" name="tearDownClass" finished-at="2026-02-04T21:49:38 IST" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

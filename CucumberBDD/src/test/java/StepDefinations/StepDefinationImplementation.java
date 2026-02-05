@@ -62,6 +62,7 @@ public class StepDefinationImplementation extends BaseTest {
 
 		System.out.println(allEl);
 		Assert.assertEquals(allEl, Collections.singletonList(productName.trim()));
+		
 
 	}
 
