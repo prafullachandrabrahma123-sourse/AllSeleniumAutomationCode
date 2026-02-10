@@ -22,7 +22,7 @@ public class A7_CountTheNumber {
 		a++;
 		} 
 		System.out.println("Number of digits in given number is :" +a);
-
+ 
 	}
 
 }
