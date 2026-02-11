@@ -1,0 +1,30 @@
+package CoreJavaTopics;
+
+import java.util.Scanner;
+
+public class PracticeJavaPrograms {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the number: ");
+		int num = sc.nextInt();	
+		int count=0;
+		
+		if(num <0) {
+			num = num *-1;
+		}
+		if (num == 0) {
+			num=1;
+		}
+		while(num > 0) {
+			num = num/10;
+			count++;
+		}
+		System.out.println("Entered Number Count is :" +count);
+
+		
+	   }
+	}
+
+
