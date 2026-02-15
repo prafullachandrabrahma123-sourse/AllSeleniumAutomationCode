@@ -1,0 +1,32 @@
+package CoreJavaTopics;
+
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
+public class PracticeJavaPrograms {
+
+	public static void main(String[] args) {
+		
+		String nam = "madam";
+		
+		String orig = nam;
+		String rev = " ";
+		
+		for(int i= nam.length()-1; i>=0;i--) {
+			rev = rev + nam.charAt(i);
+		}
+		
+		if(rev.equals(orig)) {
+			System.out.println("Palindrome");
+
+		}else {
+			System.out.println("Not: "+rev);
+
+		}
+
+	}
+ }
+
+

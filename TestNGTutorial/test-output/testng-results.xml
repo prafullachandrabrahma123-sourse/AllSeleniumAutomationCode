@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-05T12:58:30 IST" name="Default suite" finished-at="2026-01-05T12:58:30 IST" duration-ms="81">
+  <suite started-at="2026-02-14T21:09:07 IST" name="Default suite" finished-at="2026-02-14T21:09:08 IST" duration-ms="90">
     <groups>
     </groups>
-    <test started-at="2026-01-05T12:58:30 IST" name="Default test" finished-at="2026-01-05T12:58:30 IST" duration-ms="81">
-      <class name="CoreJavaTopics.PS2">
-        <test-method signature="cars()[pri:0, instance:CoreJavaTopics.PS2@dd8ba08]" started-at="2026-01-05T12:58:30 IST" name="cars" finished-at="2026-01-05T12:58:30 IST" duration-ms="15" status="PASS">
+    <test started-at="2026-02-14T21:09:07 IST" name="Default test" finished-at="2026-02-14T21:09:08 IST" duration-ms="90">
+      <class name="CoreJavaTopics.A000_PracticeJava">
+        <test-method signature="practice()[pri:0, instance:CoreJavaTopics.A000_PracticeJava@37afeb11]" started-at="2026-02-14T21:09:07 IST" name="practice" finished-at="2026-02-14T21:09:08 IST" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- cars -->
-      </class> <!-- CoreJavaTopics.PS2 -->
+        </test-method> <!-- practice -->
+      </class> <!-- CoreJavaTopics.A000_PracticeJava -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

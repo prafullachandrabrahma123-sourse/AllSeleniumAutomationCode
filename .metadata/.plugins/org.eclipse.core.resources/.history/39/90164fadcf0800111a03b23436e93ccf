@@ -1,0 +1,28 @@
+package CoreJavaTopics;
+
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
+public class PracticeJavaPrograms {
+
+	public static void main(String[] args) {
+		
+		String nam = "automation testing framework is part of automation";
+		
+		String[] names = nam.split(" ");
+		
+		Map<String,Integer> map = new HashMap<>();
+		
+		for(String name : names) {
+			
+			map.put(name, map.getOrDefault(name, 0)+1);
+		}
+
+		System.out.println(map);
+
+	}
+ }
+
+

@@ -22,6 +22,7 @@ public class A02_DuplicatesInString {
 		}
 		
 		*/
+		
 		    String str = "automation";
             str.chars()
               .mapToObj(c -> (char) c)
