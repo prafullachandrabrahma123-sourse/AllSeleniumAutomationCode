@@ -1,0 +1,35 @@
+package CoreJavaTopics;
+
+public class A007_InterfaceTestClass implements A007_InterfacePractice {
+
+	public static void main(String[] args) {
+		
+		A007_InterfacePractice ifp = new A007_InterfaceTestClass();
+		ifp.redColour();
+		ifp.yellowColour();
+		ifp.greenColour();
+
+		
+	}
+
+	@Override
+	public void redColour() {
+		// TODO Auto-generated method stub
+		System.out.println("Stop");
+	}
+
+	@Override
+	public void yellowColour() {
+		// TODO Auto-generated method stub
+		System.out.println("Wait");
+
+	}
+
+	@Override
+	public void greenColour() {
+		// TODO Auto-generated method stub
+		System.out.println("And Go Now");
+
+	}
+
+}

@@ -1,0 +1,5 @@
+package CoreJavaTopics;
+
+public interface A007_InterfacePractice {
+
+}
