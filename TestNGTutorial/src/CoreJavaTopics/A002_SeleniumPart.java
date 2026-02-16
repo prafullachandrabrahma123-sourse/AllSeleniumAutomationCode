@@ -19,6 +19,7 @@ public class A002_SeleniumPart extends A001_SeleniumPart {
 		System.out.println(a003_SeleniumPart.decrementAs());
 		//System.out.println(ps3.multiplyByTwo());
 		System.out.println(a003_SeleniumPart.multiplyByThree());
+		System.out.println(a004_SeleniumPart.multiplyByTwo());  //if you select [a003_SeleniumPart.multiplyByTwo()] overriding concept will come. 
 
 	}
 

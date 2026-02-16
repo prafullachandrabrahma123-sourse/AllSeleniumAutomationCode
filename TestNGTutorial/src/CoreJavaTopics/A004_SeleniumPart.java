@@ -10,6 +10,7 @@ public class A004_SeleniumPart {
 	public int multiplyByTwo() {
 		a = a * 2;
 		return a;
+		
 	}
 	public int multiplyByThree() {
 		a = a * 3;
