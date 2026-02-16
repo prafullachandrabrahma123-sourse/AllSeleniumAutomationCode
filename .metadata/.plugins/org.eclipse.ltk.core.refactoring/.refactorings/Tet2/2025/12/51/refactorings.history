@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;E2EPractice&apos; to &apos;E2EPracticeWindows&apos;&#x0D;&#x0A;- Original project: &apos;Tet2&apos;&#x0D;&#x0A;- Original element: &apos;E2EPractice&apos;&#x0D;&#x0A;- Renamed element: &apos;E2EPracticeWindows&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Rename similarly named elements&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;E2EPractice&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src=/optional=/true=/=/maven.pomderived=/true=/&lt;{E2EPractice.java[E2EPractice" matchStrategy="1" name="E2EPracticeWindows" qualified="false" references="true" similarDeclarations="true" stamp="1765902905423" textual="false" version="1.0"/>
-</session>
