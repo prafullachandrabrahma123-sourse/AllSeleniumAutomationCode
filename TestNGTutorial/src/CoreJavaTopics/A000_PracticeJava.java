@@ -10,7 +10,7 @@ public class A000_PracticeJava {
 	public static void main(String[] args) {
 		
 		
-		String name = "madamisamadam";
+		String name = "madam is a madam";
 		
 		name.chars()
 		.mapToObj(c-> (char)(c)).filter(ch-> name.indexOf(ch) != name.lastIndexOf(ch))
