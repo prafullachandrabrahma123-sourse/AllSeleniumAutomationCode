@@ -1,6 +1,7 @@
 package ExtentReports.ExtentReports;
 
 
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -15,6 +16,7 @@ public class ExtentReportsDemo {
 	
 	ExtentReports extent;
 	ExtentTest test;
+	WebDriver driver;
 	
 	@BeforeTest
 	public void configPath() {
@@ -35,14 +37,16 @@ public class ExtentReportsDemo {
 	public void initialDemo() {
 		
 	    test = extent.createTest("Initial Demo");
-		WebDriver driver = new ChromeDriver();
+		 driver = new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com");
 		
 	}
 	@AfterTest
     public void tearDown() {
         extent.flush(); // VERY IMPORTANT
+        driver.quit();
     }
+	
 
 }
 

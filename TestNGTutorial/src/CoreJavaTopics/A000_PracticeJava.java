@@ -10,11 +10,10 @@ public class A000_PracticeJava {
 	public static void main(String[] args) {
 		
 		
-		String name = "madam is a madam";
+		int i =6;
+		i=8;
 		
-		name.chars()
-		.mapToObj(c-> (char)(c)).filter(ch-> name.indexOf(ch) != name.lastIndexOf(ch))
-		.forEach(System.out::print);
+		System.out.println(i);
 		
 
 
