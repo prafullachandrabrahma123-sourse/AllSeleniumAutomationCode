@@ -12,6 +12,8 @@ public class A010_MultiDimArrayMaxFromMinColumn {
         // Find minimum element and its column
         for (int i = 0; i < abc.length; i++) {
             for (int j = 0; j < abc[i].length; j++) {
+               // System.out.println(abc[i][j]);  //To Print all the values
+
                 if (abc[i][j] < min) {
                     min = abc[i][j];
                     minColumn = j;
@@ -19,7 +21,7 @@ public class A010_MultiDimArrayMaxFromMinColumn {
             }
         }
 
-        // Find maximum in that column
+        // Find maximum in the same column
         int max = abc[0][minColumn];
         for (int i = 0; i < abc.length; i++) {
             if (abc[i][minColumn] > max) {
