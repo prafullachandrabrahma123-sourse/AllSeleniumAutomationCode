@@ -1,17 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="5" total="10" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-16T21:42:17 IST" name="Default suite" finished-at="2026-02-16T21:42:17 IST" duration-ms="72">
+  <suite started-at="2026-02-22T18:01:36 IST" name="Test" finished-at="2026-02-22T18:01:37 IST" duration-ms="176">
     <groups>
+      <group name="Smoke">
+        <method signature="A_2_PracticeTestNG.a1demo()[pri:0, instance:TestNGTutorialPractice.A_2_PracticeTestNG@78691363]" name="a1demo" class="TestNGTutorialPractice.A_2_PracticeTestNG"/>
+        <method signature="A_2_PracticeTestNG.a3CarLoan()[pri:0, instance:TestNGTutorialPractice.A_2_PracticeTestNG@78691363]" name="a3CarLoan" class="TestNGTutorialPractice.A_2_PracticeTestNG"/>
+      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2026-02-16T21:42:17 IST" name="Default test" finished-at="2026-02-16T21:42:17 IST" duration-ms="72">
-      <class name="CoreJavaTopics.A002_SeleniumPart">
-        <test-method signature="cars()[pri:0, instance:CoreJavaTopics.A002_SeleniumPart@dd8ba08]" started-at="2026-02-16T21:42:17 IST" name="cars" finished-at="2026-02-16T21:42:17 IST" duration-ms="15" status="PASS">
+    <test started-at="2026-02-22T18:01:36 IST" name="Testing" finished-at="2026-02-22T18:01:37 IST" duration-ms="176">
+      <class name="TestNGTutorialPractice.A_2_PracticeTestNG">
+        <test-method is-config="true" signature="a4demo()[pri:0, instance:TestNGTutorialPractice.A_2_PracticeTestNG@78691363]" started-at="2026-02-22T18:01:37 IST" name="a4demo" finished-at="2026-02-22T18:01:37 IST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- cars -->
-      </class> <!-- CoreJavaTopics.A002_SeleniumPart -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- a4demo -->
+        <test-method signature="a1demo()[pri:0, instance:TestNGTutorialPractice.A_2_PracticeTestNG@78691363]" started-at="2026-02-22T18:01:37 IST" name="a1demo" finished-at="2026-02-22T18:01:37 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a1demo -->
+        <test-method signature="a2Personalloan(java.lang.String,java.lang.String)[pri:0, instance:TestNGTutorialPractice.A_2_PracticeTestNG@78691363]" started-at="2026-02-22T18:01:37 IST" name="a2Personalloan" data-provider="getData" finished-at="2026-02-22T18:01:37 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a2Personalloan -->
+        <test-method signature="a2Personalloan(java.lang.String,java.lang.String)[pri:0, instance:TestNGTutorialPractice.A_2_PracticeTestNG@78691363]" started-at="2026-02-22T18:01:37 IST" name="a2Personalloan" data-provider="getData" finished-at="2026-02-22T18:01:37 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a2Personalloan -->
+        <test-method signature="a2Personalloan(java.lang.String,java.lang.String)[pri:0, instance:TestNGTutorialPractice.A_2_PracticeTestNG@78691363]" started-at="2026-02-22T18:01:37 IST" name="a2Personalloan" data-provider="getData" finished-at="2026-02-22T18:01:37 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a2Personalloan -->
+        <test-method signature="a3CarLoan()[pri:0, instance:TestNGTutorialPractice.A_2_PracticeTestNG@78691363]" started-at="2026-02-22T18:01:37 IST" name="a3CarLoan" finished-at="2026-02-22T18:01:37 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a3CarLoan -->
+      </class> <!-- TestNGTutorialPractice.A_2_PracticeTestNG -->
+    </test> <!-- Testing -->
+  </suite> <!-- Test -->
 </testng-results>

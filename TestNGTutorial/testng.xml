@@ -4,13 +4,13 @@
     <test name="Testing">
         <classes>
           
-            <class name="TestNGTutorialPractice.RunWithOutJava">
+            <class name="TestNGTutorialPractice.A_1_RunWithOutJava">
              <methods>
                <include name ="Personalloan"/>
                <include name ="CarLoan"/>
              </methods>
               </class>
-             <class name ="TestNGTutorialPractice.PracticeTestNG"/>
+             <class name ="TestNGTutorialPractice.A_2_PracticeTestNG"/>
             
         </classes>
     
